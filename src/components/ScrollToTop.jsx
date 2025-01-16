@@ -28,12 +28,12 @@ export default function ScrollToTop() {
     }, []);
 
     return (
-        <div className="fixed bg-blue-800 rounded-full bottom-8 right-8 z-[99]">
+        <div className="fixed bg-white shadow-lg bottom-8 right-8 z-[99]">
             {isVisible && (
                 <div
                     onClick={scrollToTop}
                     aria-label="scroll to top"
-                    className="flex h-12 w-12 p-3 bg-blue-800 cursor-pointer items-center justify-center rounded-full bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+                    className="flex h-10 w-10 p-3 cursor-pointer items-center justify-center bg-primary text-black transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
