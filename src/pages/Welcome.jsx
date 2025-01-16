@@ -19,7 +19,6 @@ import cards from "../asset/cards.webp"
 import walletIntegrations from "../asset/walletIntegrations.png"
 import coinbase from "../asset/coinbase.png"
 import metaMask from "../asset/metaMask.png"
-import ledger from "../asset/ledger.png"
 import openWallet from "../asset/openWallet.png"
 import leftDots from "../asset/leftDots.webp"
 import openLogo from "../asset/openLogo.png"
@@ -454,7 +453,6 @@ const Welcome = () => {
                                 <p className='text-[#0C231F] text-base font-medium font-inter mt-5'>Easily link your personal wallet account to our platform for seamless and secure trading.</p>
                             </div>
                             <div>
-                                <img src={ledger} className='w-[30%]' alt="" />
                                 <p className='text-[#0C231F] text-base font-medium font-inter mt-5'>Accept payments from customers around the world directly, whilst storing your wealth offline and off-grid.</p>
                             </div>
                             <div>
