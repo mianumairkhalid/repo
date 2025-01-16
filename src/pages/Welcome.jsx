@@ -12,7 +12,7 @@ import tab1 from "../asset/tab1.png"
 import tab2 from "../asset/tab2.png"
 import tab3 from "../asset/tab3.png"
 import contract from "../asset/contract.png"
-import tabImg1 from "../asset/tabImg1.png"
+// import tabImg1 from "../asset/tabImg1.png"
 import tabImg2 from "../asset/tabImg2.png"
 import tabImg3 from "../asset/tabImg3.png"
 import check from "../asset/check.png"
@@ -76,7 +76,7 @@ const Welcome = () => {
         {
             title: "Payments & Receivables",
             content: "Raise invoices and receive instant payment in the form of tokenised shares to your personal wallet. Make payments for goods and services with no banking fees or capital risk.",
-            image: tabImg1,
+            image: 'tabImg1',
             icon: tab1
         },
         {
